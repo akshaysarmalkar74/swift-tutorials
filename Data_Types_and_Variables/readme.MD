@@ -114,7 +114,7 @@ isAvailable = false
 print(isAvailable)
 ```
 
-## Get Datatype pf Variable
+## Get Datatype of Variable
 We can use type function to get what type of value does the variable holds, similar to that of `typeof` function in JS
 ```
 type(of: <variable>)
@@ -122,3 +122,12 @@ print(type(of: someDbl))
 ```
 
 For [More Info](https://www.programiz.com/swift-programming/data-types)
+
+# String Interploation
+
+String Interpolation is quite similar to Template Strings in JS. All we have to do is replace `${JsExpression}` with `\(SwiftExpression)`. 
+```
+var fName = "Akshay"
+var lName = "Sarmalkar"
+print("My full name is \(fName) \(lName)")
+```
