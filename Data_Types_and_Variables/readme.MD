@@ -45,3 +45,80 @@ let pi = 3.14
 // 3.14 is the literal (double in this case)
 ```
 For [More Info](https://www.programiz.com/swift-programming/variables-constants-literals)
+
+
+# Data Types
+
+- Character
+- Int
+- String
+- Float
+- Double
+- Bool
+
+## Character
+It is used to store a single character
+```
+var initialChar: Character
+initialChar = "A"
+print(initialChar)
+```
+
+If we try to store more than 1 character, it will result into an error.
+
+## Int
+Int includes all the Integers. They can be 0, negative or positive.
+
+```
+var someNum: Int
+someNum = 43
+print(someNum)
+someNum = -32
+print(someNum)
+```
+
+## String
+String are basically group of characters, they can be empty too.
+
+```
+var fName = "Akshay"
+var lName = "Sarmalkar"
+print(fName)
+print(lName)
+```
+
+## Float
+Float is use to store Decimal Numbers, but the precision is less as compared to Double.
+```
+var someFloat: Float
+someFloat = 3.13432
+print(someFloat)
+```
+
+## Double
+Double is use to store Decimal Numbers, but precision is higher than Float.
+Also, if we declare variable and give decimal number to it, then it will be **Double** not **Float**
+
+```
+var someDbl = 3.2111
+var anotherDbl: Double
+anotherDbl = 332.1321
+```
+
+## Bool
+Bool stands for Boolean. It holds only true or false values.
+```
+var isAvailable = true
+print(isAvailable)
+isAvailable = false
+print(isAvailable)
+```
+
+## Get Datatype pf Variable
+We can use type function to get what type of value does the variable holds, similar to that of `typeof` function in JS
+```
+type(of: <variable>)
+print(type(of: someDbl))
+```
+
+For [More Info](https://www.programiz.com/swift-programming/data-types)
